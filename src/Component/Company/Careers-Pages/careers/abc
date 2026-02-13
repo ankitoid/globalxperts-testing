@@ -1,0 +1,936 @@
+{
+    "count": 107,
+    "next": null,
+    "previous": "http://3.85.242.139:8003/api/create_job/public/jobs/",
+    "results": {
+        "status": "success",
+        "data": [
+            {
+                "id": 7,
+                "posted_by": null,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 2,
+                    "name": "Part_time"
+                },
+                "posted_by_detail": null,
+                "manager_detail": {
+                    "graph_id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                    "display_name": "abhardwaj",
+                    "given_name": null,
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "abhardwaj@presidio.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                        "mail": "abhardwaj@presidio.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": null,
+                        "displayName": "abhardwaj",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946034+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                    "display_name": "Abhishek Kaushik",
+                    "given_name": "Abhishek",
+                    "surname": "Kaushik",
+                    "job_title": null,
+                    "mail": "abhishek.kaushik@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "surname": "Kaushik",
+                        "jobTitle": null,
+                        "givenName": "Abhishek",
+                        "displayName": "Abhishek Kaushik",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946135+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                        "display_name": "Abhishek Kumar",
+                        "given_name": "Abhishek",
+                        "surname": "Kumar",
+                        "job_title": null,
+                        "mail": "abhishek.k@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.k@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                            "mail": "abhishek.k@gxinetworks.com",
+                            "surname": "Kumar",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kumar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.k@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946123+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 2,
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "id": 1,
+                        "name": "python"
+                    }
+                ],
+                "title": "Graphics Designer",
+                "job_id": "GXI1007",
+                "Description": "Lead backend team to develop scalable APIs and integrations.",
+                "Salary_range": "18–24 LPA",
+                "Experience_required": "5–8 years",
+                "no_opening": 2,
+                "last_hiring_date": "2025-12-31",
+                "is_active": true,
+                "created_at": "2025-11-07T11:34:14.117843+05:30",
+                "updated_at": "2025-11-10T14:22:48.010192+05:30"
+            },
+            {
+                "id": 6,
+                "posted_by": null,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 2,
+                    "name": "Part_time"
+                },
+                "posted_by_detail": null,
+                "manager_detail": {
+                    "graph_id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                    "display_name": "abhardwaj",
+                    "given_name": null,
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "abhardwaj@presidio.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                        "mail": "abhardwaj@presidio.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": null,
+                        "displayName": "abhardwaj",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946034+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                    "display_name": "Abhishek Kaushik",
+                    "given_name": "Abhishek",
+                    "surname": "Kaushik",
+                    "job_title": null,
+                    "mail": "abhishek.kaushik@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "surname": "Kaushik",
+                        "jobTitle": null,
+                        "givenName": "Abhishek",
+                        "displayName": "Abhishek Kaushik",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946135+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                        "display_name": "Abhishek Kumar",
+                        "given_name": "Abhishek",
+                        "surname": "Kumar",
+                        "job_title": null,
+                        "mail": "abhishek.k@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.k@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                            "mail": "abhishek.k@gxinetworks.com",
+                            "surname": "Kumar",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kumar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.k@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946123+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 2,
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "id": 1,
+                        "name": "python"
+                    }
+                ],
+                "title": "Business Analyst",
+                "job_id": "GXI1006",
+                "Description": "Lead backend team to develop scalable APIs and integrations.",
+                "Salary_range": "18–24 LPA",
+                "Experience_required": "5–8 years",
+                "no_opening": 2,
+                "last_hiring_date": "2025-12-31",
+                "is_active": true,
+                "created_at": "2025-11-07T11:31:46.717672+05:30",
+                "updated_at": "2025-11-10T14:47:37.978092+05:30"
+            },
+            {
+                "id": 5,
+                "posted_by": null,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 2,
+                    "name": "Part_time"
+                },
+                "posted_by_detail": null,
+                "manager_detail": {
+                    "graph_id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                    "display_name": "abhardwaj",
+                    "given_name": null,
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "abhardwaj@presidio.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                        "mail": "abhardwaj@presidio.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": null,
+                        "displayName": "abhardwaj",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946034+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                    "display_name": "Abhishek Kaushik",
+                    "given_name": "Abhishek",
+                    "surname": "Kaushik",
+                    "job_title": null,
+                    "mail": "abhishek.kaushik@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "surname": "Kaushik",
+                        "jobTitle": null,
+                        "givenName": "Abhishek",
+                        "displayName": "Abhishek Kaushik",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946135+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                        "display_name": "Abhishek Kumar",
+                        "given_name": "Abhishek",
+                        "surname": "Kumar",
+                        "job_title": null,
+                        "mail": "abhishek.k@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.k@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                            "mail": "abhishek.k@gxinetworks.com",
+                            "surname": "Kumar",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kumar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.k@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946123+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 2,
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "id": 1,
+                        "name": "python"
+                    }
+                ],
+                "title": "Software Development Engineer in Testing (SDET)",
+                "job_id": "GXI1005",
+                "Description": "Lead backend team to develop scalable APIs and integrations.",
+                "Salary_range": "18–24 LPA",
+                "Experience_required": "5–8 years",
+                "no_opening": 2,
+                "last_hiring_date": "2025-12-31",
+                "is_active": true,
+                "created_at": "2025-11-07T11:25:39.927999+05:30",
+                "updated_at": "2025-11-10T14:48:00.481265+05:30"
+            },
+            {
+                "id": 4,
+                "posted_by": null,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 2,
+                    "name": "Part_time"
+                },
+                "posted_by_detail": null,
+                "manager_detail": {
+                    "graph_id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                    "display_name": "abhardwaj",
+                    "given_name": null,
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "abhardwaj@presidio.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                        "mail": "abhardwaj@presidio.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": null,
+                        "displayName": "abhardwaj",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946034+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                    "display_name": "Abhishek Kaushik",
+                    "given_name": "Abhishek",
+                    "surname": "Kaushik",
+                    "job_title": null,
+                    "mail": "abhishek.kaushik@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "surname": "Kaushik",
+                        "jobTitle": null,
+                        "givenName": "Abhishek",
+                        "displayName": "Abhishek Kaushik",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946135+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                        "display_name": "Abhishek Kumar",
+                        "given_name": "Abhishek",
+                        "surname": "Kumar",
+                        "job_title": null,
+                        "mail": "abhishek.k@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.k@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                            "mail": "abhishek.k@gxinetworks.com",
+                            "surname": "Kumar",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kumar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.k@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946123+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 2,
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "id": 1,
+                        "name": "python"
+                    }
+                ],
+                "title": "Senior Python Developer",
+                "job_id": "GXI1004",
+                "Description": "Lead backend team to develop scalable APIs and integrations.",
+                "Salary_range": "18–24 LPA",
+                "Experience_required": "5–8 years",
+                "no_opening": 2,
+                "last_hiring_date": "2025-12-31",
+                "is_active": true,
+                "created_at": "2025-11-07T11:22:33.822486+05:30",
+                "updated_at": "2025-11-07T11:22:33.822512+05:30"
+            },
+            {
+                "id": 3,
+                "posted_by": 2,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 1,
+                    "name": "Full_time"
+                },
+                "posted_by_detail": {
+                    "id": 2,
+                    "email": null,
+                    "name": null
+                },
+                "manager_detail": {
+                    "graph_id": "2020cc83-c4a9-430f-af13-ea42a0ac46c5",
+                    "display_name": "Aakash",
+                    "given_name": "Aakash",
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "aakash@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "aakash@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "2020cc83-c4a9-430f-af13-ea42a0ac46c5",
+                        "mail": "aakash@gxinetworks.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": "Aakash",
+                        "displayName": "Aakash",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "aakash@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.945966+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "024c014d-ddb0-4034-ab62-999b4c586551",
+                    "display_name": "Aayush Chaudhary",
+                    "given_name": "Aayush",
+                    "surname": "Chaudhary",
+                    "job_title": null,
+                    "mail": "aayush.chaudhary@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "aayush.chaudhary@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "024c014d-ddb0-4034-ab62-999b4c586551",
+                        "mail": "aayush.chaudhary@gxinetworks.com",
+                        "surname": "Chaudhary",
+                        "jobTitle": null,
+                        "givenName": "Aayush",
+                        "displayName": "Aayush Chaudhary",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "aayush.chaudhary@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946008+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "5346e4b0-7d97-456d-b3e9-1001ef405f9b",
+                        "display_name": "Aaqil Akhtar",
+                        "given_name": "Aaqil",
+                        "surname": "Akhtar",
+                        "job_title": null,
+                        "mail": "aaqil.akhtar@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "aaqil.akhtar@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "5346e4b0-7d97-456d-b3e9-1001ef405f9b",
+                            "mail": "aaqil.akhtar@gxinetworks.com",
+                            "surname": "Akhtar",
+                            "jobTitle": null,
+                            "givenName": "Aaqil",
+                            "displayName": "Aaqil Akhtar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "aaqil.akhtar@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.945980+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    },
+                    {
+                        "graph_id": "26d6012d-f8c2-4295-90c7-a35e73b865e3",
+                        "display_name": "Abhinav Sharma",
+                        "given_name": "Abhinav",
+                        "surname": "Sharma",
+                        "job_title": null,
+                        "mail": "Abhinav.sharma1@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "Abhinav.sharma1@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "26d6012d-f8c2-4295-90c7-a35e73b865e3",
+                            "mail": "Abhinav.sharma1@gxinetworks.com",
+                            "surname": "Sharma",
+                            "jobTitle": null,
+                            "givenName": "Abhinav",
+                            "displayName": "Abhinav Sharma",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "Abhinav.sharma1@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946098+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    },
+                    {
+                        "graph_id": "b954e5da-c953-4050-a860-7244f1550263",
+                        "display_name": "Abhishek Chaturvedi",
+                        "given_name": "Abhishek",
+                        "surname": "Chaturvedi",
+                        "job_title": null,
+                        "mail": "abhishek.chaturvedi@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.chaturvedi@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "b954e5da-c953-4050-a860-7244f1550263",
+                            "mail": "abhishek.chaturvedi@gxinetworks.com",
+                            "surname": "Chaturvedi",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Chaturvedi",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.chaturvedi@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946110+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    },
+                    {
+                        "graph_id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                        "display_name": "Abhishek Kumar",
+                        "given_name": "Abhishek",
+                        "surname": "Kumar",
+                        "job_title": null,
+                        "mail": "abhishek.k@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.k@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "749b4969-2ba7-49bc-9ff4-bb7074810a86",
+                            "mail": "abhishek.k@gxinetworks.com",
+                            "surname": "Kumar",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kumar",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.k@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946123+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    },
+                    {
+                        "graph_id": "eae21898-aff4-48f9-9017-ccabf78dd143",
+                        "display_name": "abby",
+                        "given_name": null,
+                        "surname": null,
+                        "job_title": null,
+                        "mail": "abby@globalxperts.net",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abby_globalxperts.net#EXT#@gxinet.onmicrosoft.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "eae21898-aff4-48f9-9017-ccabf78dd143",
+                            "mail": "abby@globalxperts.net",
+                            "surname": null,
+                            "jobTitle": null,
+                            "givenName": null,
+                            "displayName": "abby",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abby_globalxperts.net#EXT#@gxinet.onmicrosoft.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946021+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 3,
+                        "name": "Data Science"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Machine Learning"
+                    },
+                    {
+                        "id": 1,
+                        "name": "python"
+                    }
+                ],
+                "title": "Software Development Engineer in Testing (SDET)",
+                "job_id": "GXI1003",
+                "Description": "Build APIs",
+                "Salary_range": "10-12 LPA",
+                "Experience_required": "2 years",
+                "no_opening": 2,
+                "last_hiring_date": "2025-12-31",
+                "is_active": true,
+                "created_at": "2025-11-05T12:26:13.752688+05:30",
+                "updated_at": "2025-11-10T14:48:14.798505+05:30"
+            },
+            {
+                "id": 2,
+                "posted_by": 3,
+                "teams_detail": {
+                    "id": 1,
+                    "name": "gxi"
+                },
+                "employments_types_detail": {
+                    "id": 2,
+                    "name": "Part_time"
+                },
+                "posted_by_detail": {
+                    "id": 3,
+                    "email": null,
+                    "name": null
+                },
+                "manager_detail": null,
+                "hiring_manager_detail": null,
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "display_name": "Abhishek Kaushik",
+                        "given_name": "Abhishek",
+                        "surname": "Kaushik",
+                        "job_title": null,
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                            "mail": "abhishek.kaushik@gxinetworks.com",
+                            "surname": "Kaushik",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Kaushik",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946135+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [],
+                "title": "Business Analyst",
+                "job_id": "GXI1002",
+                "Description": "<div>&lt;h3&gt;&lt;strong&gt;🚀 Job Title:&lt;/strong&gt; Full Stack Developer&lt;/h3&gt;</div><div><br></div><div>&lt;p&gt;&lt;strong&gt;Location:&lt;/strong&gt; Remote / Hybrid (Bangalore, India)&lt;/p&gt;</div><div>&lt;p&gt;&lt;strong&gt;Employment Type:&lt;/strong&gt; Full-Time&lt;/p&gt;</div><div><br></div><div>&lt;hr&gt;</div><div><br></div><div>&lt;h4&gt;&lt;strong&gt;🧩 About the Role:&lt;/strong&gt;&lt;/h4&gt;</div><div>&lt;p&gt;We are looking for an experienced &lt;strong&gt;Full Stack Developer&lt;/strong&gt; to join our dynamic team.&nbsp;</div><div>You will be responsible for building scalable, high-performance web applications using &lt;strong&gt;Node.js, React.js, and PostgreSQL&lt;/strong&gt;.&lt;/p&gt;</div><div><br></div><div>&lt;hr&gt;</div><div><br></div><div>&lt;h4&gt;&lt;strong&gt;🛠 Key Responsibilities:&lt;/strong&gt;&lt;/h4&gt;</div><div>&lt;ul&gt;</div><div>&nbsp; &lt;li&gt;Design, develop, and deploy modern web applications using &lt;strong&gt;React.js&lt;/strong&gt; and &lt;strong&gt;Node.js&lt;/strong&gt;.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Implement RESTful APIs and ensure seamless integration with front-end systems.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Work closely with product managers and designers to create engaging user experiences.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Maintain and optimize databases using &lt;strong&gt;PostgreSQL&lt;/strong&gt; and &lt;strong&gt;Sequelize ORM&lt;/strong&gt;.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Ensure security, performance, and scalability of applications.&lt;/li&gt;</div><div>&lt;/ul&gt;</div><div><br></div><div>&lt;hr&gt;</div><div><br></div><div>&lt;h4&gt;&lt;strong&gt;💡 Required Skills &amp; Qualifications:&lt;/strong&gt;&lt;/h4&gt;</div><div>&lt;ul&gt;</div><div>&nbsp; &lt;li&gt;Bachelor’s degree in Computer Science or a related field.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;2–5 years of experience in full-stack web development.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Proficiency in &lt;strong&gt;JavaScript / TypeScript&lt;/strong&gt;, &lt;strong&gt;React.js&lt;/strong&gt;, and &lt;strong&gt;Node.js&lt;/strong&gt;.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Hands-on experience with &lt;strong&gt;REST APIs&lt;/strong&gt;, &lt;strong&gt;PostgreSQL&lt;/strong&gt;, and &lt;strong&gt;Git&lt;/strong&gt;.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Understanding of cloud platforms (AWS / GCP / Azure) is a plus.&lt;/li&gt;</div><div>&lt;/ul&gt;</div><div><br></div><div>&lt;hr&gt;</div><div><br></div><div>&lt;h4&gt;&lt;strong&gt;🌟 What We Offer:&lt;/strong&gt;&lt;/h4&gt;</div><div>&lt;ul&gt;</div><div>&nbsp; &lt;li&gt;Competitive salary and performance-based bonuses.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Flexible working hours &amp; remote work options.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Learning and development opportunities.&lt;/li&gt;</div><div>&nbsp; &lt;li&gt;Supportive, collaborative team environment.&lt;/li&gt;</div><div>&lt;/ul&gt;</div><div><br></div><div>&lt;hr&gt;</div><div><br></div><div>&lt;h4&gt;&lt;strong&gt;📩 How to Apply:&lt;/strong&gt;&lt;/h4&gt;</div><div>&lt;p&gt;Send your updated resume and portfolio to&nbsp;</div><div>&lt;a href=\"mailto:careers@company.com\"&gt;&lt;strong&gt;careers@company.com&lt;/strong&gt;&lt;/a&gt;&nbsp;</div><div>with the subject line “Application for Full Stack Developer”.&lt;/p&gt;</div><div><br></div><div>&lt;p&gt;&lt;em&gt;Join us and help build the next generation of intelligent web platforms!&lt;/em&gt;&lt;/p&gt;</div><div><br></div>",
+                "Salary_range": "10-12 LPA",
+                "Experience_required": "2 years",
+                "no_opening": 2,
+                "last_hiring_date": null,
+                "is_active": true,
+                "created_at": "2025-11-05T12:03:43.734513+05:30",
+                "updated_at": "2025-11-10T14:49:14.741712+05:30"
+            },
+            {
+                "id": 1,
+                "posted_by": 7,
+                "teams_detail": {
+                    "id": 2,
+                    "name": "Backend Team"
+                },
+                "employments_types_detail": {
+                    "id": 1,
+                    "name": "Full_time"
+                },
+                "posted_by_detail": {
+                    "id": 7,
+                    "email": null,
+                    "name": null
+                },
+                "manager_detail": {
+                    "graph_id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                    "display_name": "abhardwaj",
+                    "given_name": null,
+                    "surname": null,
+                    "job_title": null,
+                    "mail": "abhardwaj@presidio.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "f91b6e40-74e9-4188-b5dc-1475e37227d1",
+                        "mail": "abhardwaj@presidio.com",
+                        "surname": null,
+                        "jobTitle": null,
+                        "givenName": null,
+                        "displayName": "abhardwaj",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhardwaj_presidio.com#EXT#@gxinet.onmicrosoft.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946034+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hiring_manager_detail": {
+                    "graph_id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                    "display_name": "Abhishek Kaushik",
+                    "given_name": "Abhishek",
+                    "surname": "Kaushik",
+                    "job_title": null,
+                    "mail": "abhishek.kaushik@gxinetworks.com",
+                    "mobile_phone": null,
+                    "office_location": null,
+                    "preferred_language": null,
+                    "user_principal_name": "abhishek.kaushik@gxinetworks.com",
+                    "business_phones": [],
+                    "raw_graph": {
+                        "id": "17fdfcdf-387b-4a23-a239-3e24d053d6e9",
+                        "mail": "abhishek.kaushik@gxinetworks.com",
+                        "surname": "Kaushik",
+                        "jobTitle": null,
+                        "givenName": "Abhishek",
+                        "displayName": "Abhishek Kaushik",
+                        "mobilePhone": null,
+                        "businessPhones": [],
+                        "officeLocation": null,
+                        "preferredLanguage": null,
+                        "userPrincipalName": "abhishek.kaushik@gxinetworks.com"
+                    },
+                    "created_at": "2025-11-25T09:54:54.946135+05:30",
+                    "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                },
+                "hr_team_members_detail": [
+                    {
+                        "graph_id": "26d6012d-f8c2-4295-90c7-a35e73b865e3",
+                        "display_name": "Abhinav Sharma",
+                        "given_name": "Abhinav",
+                        "surname": "Sharma",
+                        "job_title": null,
+                        "mail": "Abhinav.sharma1@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "Abhinav.sharma1@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "26d6012d-f8c2-4295-90c7-a35e73b865e3",
+                            "mail": "Abhinav.sharma1@gxinetworks.com",
+                            "surname": "Sharma",
+                            "jobTitle": null,
+                            "givenName": "Abhinav",
+                            "displayName": "Abhinav Sharma",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "Abhinav.sharma1@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946098+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    },
+                    {
+                        "graph_id": "b954e5da-c953-4050-a860-7244f1550263",
+                        "display_name": "Abhishek Chaturvedi",
+                        "given_name": "Abhishek",
+                        "surname": "Chaturvedi",
+                        "job_title": null,
+                        "mail": "abhishek.chaturvedi@gxinetworks.com",
+                        "mobile_phone": null,
+                        "office_location": null,
+                        "preferred_language": null,
+                        "user_principal_name": "abhishek.chaturvedi@gxinetworks.com",
+                        "business_phones": [],
+                        "raw_graph": {
+                            "id": "b954e5da-c953-4050-a860-7244f1550263",
+                            "mail": "abhishek.chaturvedi@gxinetworks.com",
+                            "surname": "Chaturvedi",
+                            "jobTitle": null,
+                            "givenName": "Abhishek",
+                            "displayName": "Abhishek Chaturvedi",
+                            "mobilePhone": null,
+                            "businessPhones": [],
+                            "officeLocation": null,
+                            "preferredLanguage": null,
+                            "userPrincipalName": "abhishek.chaturvedi@gxinetworks.com"
+                        },
+                        "created_at": "2025-11-25T09:54:54.946110+05:30",
+                        "updated_at": "2025-11-25T09:57:37.625138+05:30"
+                    }
+                ],
+                "skills_details": [
+                    {
+                        "id": 1,
+                        "name": "python"
+                    },
+                    {
+                        "id": 4,
+                        "name": "react Js"
+                    }
+                ],
+                "title": "Software Development Engineer in Testing (SDET)",
+                "job_id": "GXI1001",
+                "Description": "i want Beckend Developer for Rest Ful APi for working",
+                "Salary_range": "5-7 Lakhes",
+                "Experience_required": "5 -6",
+                "no_opening": 8,
+                "last_hiring_date": "2025-12-30",
+                "is_active": true,
+                "created_at": "2025-11-05T11:43:31.099116+05:30",
+                "updated_at": "2025-11-10T14:48:07.534942+05:30"
+            }
+        ]
+    }
+}
