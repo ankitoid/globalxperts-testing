@@ -1,157 +1,150 @@
 import { Routes, Route } from "react-router-dom";
+import { lazy } from "react";
 
+const Home = lazy(() => import("./Component/Home"));
+const Cloud = lazy(() => import("./Component/Solutions/Cloud"));
+const CollaborationTechnologies = lazy(() => import("./Component/Solutions/CollaborationTechnologies"));
+const DataCenterDesign = lazy(() => import("./Component/Solutions/DataCenterDesign"));
+const MultiCloud = lazy(() => import("./Component/Solutions/Cloud/MultiCloud"));
+const CyberSecurity = lazy(() => import("./Component/Solutions/CyberSecurity"));
+const Education = lazy(() => import("./Component/Industries/Education"));
+const NotFound = lazy(() => import("./Component/NotFound"));
+const Energy = lazy(() => import("./Component/Industries/Energy"));
+const Goverment = lazy(() => import("./Component/Industries/Goverment"));
+const Financial = lazy(() => import("./Component/Industries/Financial"));
+const Retail = lazy(() => import("./Component/Industries/Retail"));
+const Healthcare = lazy(() => import("./Component/Industries/Healthcare"));
+const ServiceProvider = lazy(() => import("./Component/Industries/ServiceProvider"));
+const MediaEnter = lazy(() => import("./Component/Industries/MediaEnter"));
+const SmallandMediumBusiness = lazy(() => import("./Component/Solutions/SmallandMediumBusiness"));
 
+const About = lazy(() => import("./Component/Company/About"));
+const ContactUs = lazy(() => import("./Component/ContactUs"));
+const Careers = lazy(() => import("./Component/Company/Careers"));
+const CompaniesLogos = lazy(() => import("./Component/CompaniesLogos"));
+const AImlSoluion = lazy(() => import("./Component/Solutions/AI&MlSolutions"));
 
-import Home from "./Component/Home";
-import Cloud from "./Component/Solutions/Cloud";
-import CollaborationTechnologies from "./Component/Solutions/CollaborationTechnologies";
-import DataCenterDesign from "./Component/Solutions/DataCenterDesign";
-import MultiCloud from "./Component/Solutions/Cloud/MultiCloud";
-import CyberSecurity from "./Component/Solutions/CyberSecurity";
-import Education from "./Component/Industries/Education";
-import NotFound from "./Component/NotFound";
-import Energy from "./Component/Industries/Energy";
-import Goverment from "./Component/Industries/Goverment";
-import Financial from "./Component/Industries/Financial";
-import Retail from "./Component/Industries/Retail";
-import Healthcare from "./Component/Industries/Healthcare";
-import ServiceProvider from "./Component/Industries/ServiceProvider";
-import MediaEnter from "./Component/Industries/MediaEnter";
-import SmallandMediumBusiness from "./Component/Solutions/SmallandMediumBusiness";
+const ProfessionalServices = lazy(() => import("./Component/Services/ProfessionalServices"));
+const ManagedServices = lazy(() => import("./Component/Services/ManagedService"));
 
-import About from "./Component/Company/About";
-import ContactUs from "./Component/ContactUs";
-import Careers from "./Component/Company/Careers";
-import CompaniesLogos from "./Component/CompaniesLogos";
-import AImlSoluion from "./Component/Solutions/AI&MlSolutions";
+const ServicesHockey = lazy(() => import("./Component/ServicesHockey"));
 
-import ProfessionalServices from "./Component/Services/ProfessionalServices";
-import ManagedServices from "./Component/Services/ManagedService";
+const Blog = lazy(() => import("./Component/Insights/Blog"));
+const Partner = lazy(() => import("./Component/Insights/Partner"));
+const BlogPost1 = lazy(() => import("./Component/Insights/BlogPage/BlogPost1"));
+const BlogPost4 = lazy(() => import("./Component/Insights/BlogPage/BlogPost4"));
 
-import ServicesHockey from "./Component/ServicesHockey";
+const CaseStudies = lazy(() => import("./Component/Insights/CaseStudies"));
+const CaseStudies1 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies1"));
+const CaseStudies2 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies2"));
+const CaseStudies3 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies3"));
+const CaseStudies4 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies4"));
+const CaseStudies5 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies5"));
+const CaseStudies6 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies6"));
+const CaseStudies7 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies7"));
+const CaseStudies8 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies8"));
+const CaseStudies9 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies9"));
+const CaseStudies10 = lazy(() => import("./Component/Insights/CaseStdies/CaseStudies10"));
 
-import Blog from "./Component/Insights/Blog";
-import Partner from "./Component/Insights/Partner";
-import BlogPost1 from "./Component/Insights/BlogPage/BlogPost1";
+const MediaLib = lazy(() => import("./Component/Insights/MediaLib"));
+const PartnerInfo = lazy(() => import("./Component/Insights/CaseStdies/PartnerInfo"));
 
-import BlogPost4 from "./Component/Insights/BlogPage/BlogPost4";
-import CaseStudies from "./Component/Insights/CaseStudies";
+const Networking = lazy(() => import("./Component/Solutions/Networking"));
+const AcloudVision = lazy(() => import("./Component/Solutions/Networking/AcloudVision"));
+const AristaEdge = lazy(() => import("./Component/Solutions/Networking/AristaEdge"));
+const AristaSwitches = lazy(() => import("./Component/Solutions/Networking/AristaSwitches"));
+const AristaWAN = lazy(() => import("./Component/Solutions/Networking/AristaWAN"));
+const AristaWifi = lazy(() => import("./Component/Solutions/Networking/AristaWifi"));
+const Mkcamera = lazy(() => import("./Component/Solutions/Networking/MkCamers"));
+const MkWireless = lazy(() => import("./Component/Solutions/Networking/MkWireless"));
+const MkSwitches = lazy(() => import("./Component/Solutions/Networking/MkSwitches"));
+const MkFirewall = lazy(() => import("./Component/Solutions/Networking/MkFirewall"));
 
-import CaseStudies1 from "./Component/Insights/CaseStdies/CaseStudies1";
-import CaseStudies2 from "./Component/Insights/CaseStdies/CaseStudies2";
-import CaseStudies3 from "./Component/Insights/CaseStdies/CaseStudies3";
-import CaseStudies4 from "./Component/Insights/CaseStdies/CaseStudies4";
-import CaseStudies5 from "./Component/Insights/CaseStdies/CaseStudies5";
-import CaseStudies6 from "./Component/Insights/CaseStdies/CaseStudies6";
-import CaseStudies7 from "./Component/Insights/CaseStdies/CaseStudies7";
-import CaseStudies8 from "./Component/Insights/CaseStdies/CaseStudies8";
-import CaseStudies9 from "./Component/Insights/CaseStdies/CaseStudies9";
+const AWSPartner = lazy(() => import("./Component/Insights/Partners/AWSPartner"));
+const AristaPartner = lazy(() => import("./Component/Insights/Partners/AristaPartner"));
+const CisMKPartner = lazy(() => import("./Component/Insights/Partners/CisMKPartner"));
+const CiscoPartner = lazy(() => import("./Component/Insights/Partners/CiscoPartner"));
+const VMWarePartner = lazy(() => import("./Component/Insights/Partners/VMWarePartner"));
+const HewlettPackPartner = lazy(() => import("./Component/Insights/Partners/HewlettPackPartner"));
+const MSAzurePartner = lazy(() => import("./Component/Insights/Partners/MSAzurePartner"));
+const VeeamPartner = lazy(() => import("./Component/Insights/Partners/VeeamPartner"));
+const MicrosoftPartner = lazy(() => import("./Component/Insights/Partners/MicrosoftPartner"));
+const TruenasPartner = lazy(() => import("./Component/Insights/Partners/TruenasPartner"));
+const SeceonPartner = lazy(() => import("./Component/Insights/Partners/SeceonPartner"));
 
-import MediaLib from "./Component/Insights/MediaLib";
-import PartnerInfo from "./Component/Insights/CaseStdies/PartnerInfo";
-import Networking from "./Component/Solutions/Networking";
+const Devops = lazy(() => import("./Component/Solutions/Cloud/Devops"));
+const AWS = lazy(() => import("./Component/Solutions/Cloud/AWS"));
 
-import AcloudVision from "./Component/Solutions/Networking/AcloudVision";
-import AristaEdge from "./Component/Solutions/Networking/AristaEdge";
-import AristaSwitches from "./Component/Solutions/Networking/AristaSwitches";
-import AristaWAN from "./Component/Solutions/Networking/AristaWAN";
-import AristaWifi from "./Component/Solutions/Networking/AristaWifi";
-import Mkcamera from "./Component/Solutions/Networking/MkCamers";
-import MkWireless from "./Component/Solutions/Networking/MkWireless";
-import MkSwitches from "./Component/Solutions/Networking/MkSwitches";
-import MkFirewall from "./Component/Solutions/Networking/MkFirewall";
+const IOSA = lazy(() => import("./Component/Solutions/Cloud Solutions/iosa"));
+const AccelatorMigration = lazy(() => import("./Component/Solutions/Cloud Solutions/migrationAccelator"));
 
-import AWSPartner from "./Component/Insights/Partners/AWSPartner";
-import AristaPartner from "./Component/Insights/Partners/AristaPartner";
-import CisMKPartner from "./Component/Insights/Partners/CisMKPartner";
-import CiscoPartner from "./Component/Insights/Partners/CiscoPartner";
-import VMWarePartner from "./Component/Insights/Partners/VMWarePartner";
-import HewlettPackPartner from "./Component/Insights/Partners/HewlettPackPartner";
-import MSAzurePartner from "./Component/Insights/Partners/MSAzurePartner";
-import VeeamPartner from "./Component/Insights/Partners/VeeamPartner";
-import MicrosoftPartner from "./Component/Insights/Partners/MicrosoftPartner";
-import TruenasPartner from "./Component/Insights/Partners/TruenasPartner";
-import SeceonPartner from "./Component/Insights/Partners/SeceonPartner";
+const SoftwareDevelopment = lazy(() => import("./Component/Services/SoftwareDevelopment"));
 
-// Solutions => Cloud => Devops
-import Devops from "./Component/Solutions/Cloud/Devops";
-import AWS from "./Component/Solutions/Cloud/AWS";
-// import Azure from "./Component/Solutions/Cloud/Azure";
-// import GCP from "./Component/Solutions/Cloud/GCP";
+const TechnologyRefresh = lazy(() => import("./Component/Services/Field Service/TechnologyRefresh"));
+const FieldServiceEng = lazy(() => import("./Component/Services/Field Service/FieldServiceEng"));
+const FieldServices = lazy(() => import("./Component/Services/FieldServicesPage"));
 
-// Careers => JobPosting
-// import JobPosting from "./Component/Company/jobPost/JobPosting";
+const ManagedCollaborationTech = lazy(() => import("./Component/Services/Managed Services/ManagedCollaborationTech"));
+const ManagedCyberSecurity = lazy(() => import("./Component/Services/Managed Services/ManagedCyberSecurity"));
+const ManagedNetworking = lazy(() => import("./Component/Services/Managed Services/ManagedNetworking"));
+const ManagedOpsisStream = lazy(() => import("./Component/Services/Managed Services/ManagedOpsis"));
+const ManagedHelpDesk = lazy(() => import("./Component/Services/Managed Services/ManageHelpDesk"));
+const ManagedCloud = lazy(() => import("./Component/Services/Managed Services/ManagedCloud"));
 
-// Cloud & Devopa => Migration
-import IOSA from "./Component/Solutions/Cloud Solutions/iosa";
-import AccelatorMigration from "./Component/Solutions/Cloud Solutions/migrationAccelator";
-//  import VMwareCloud from "./Component/Solutions/Cloud Solutions/VMwareCloud";
-// import Blockchain from "./Component/Solutions/Cloud Solutions/Blockchain";
+const TitanX = lazy(() => import("./Component/Solutions/Cloud Solutions/TitanX"));
+const OmniBot = lazy(() => import("./Component/Solutions/Cloud Solutions/OmniBot"));
+const HybridCloud = lazy(() => import("./Component/Solutions/Cloud/HybridCloud"));
+const AIMLonAWS = lazy(() => import("./Component/Solutions/Cloud Solutions/AIMLonAWS"));
+const AWSMigrationService = lazy(() => import("./Component/Solutions/Cloud Solutions/AWSMigrationService"));
 
-// Solutions => SoftwareDevelopment
-import SoftwareDevelopment from "./Component/Services/SoftwareDevelopment";
+const StaffAugmentation = lazy(() => import("./Component/Services/Professional Service/StaffAugmentation"));
+const ConsultingAndAdvisory = lazy(() => import("./Component/Services/Professional Service/ConsultingAndAdvisory"));
+const Implementation = lazy(() => import("./Component/Services/Professional Service/Implementation"));
+const CloudMigration = lazy(() => import("./Component/Services/Professional Service/CloudMigration"));
+const SiteSurveys = lazy(() => import("./Component/Services/Professional Service/SiteSurveys"));
+const DataCenterMigration = lazy(() => import("./Component/Services/Professional Service/DataCenterMigration"));
+const TechStaffAug = lazy(() => import("./Component/Services/Professional Service/TechStaffAug"));
 
-import TechnologyRefresh from "./Component/Services/Field Service/TechnologyRefresh";
-import FieldServiceEng from "./Component/Services/Field Service/FieldServiceEng";
-import FieldServices from "./Component/Services/FieldServicesPage";
+const CloudSolutions = lazy(() => import("./Component/Solutions/CloudSolutions"));
 
-// import LoginSignup from "./Component/LoginSignup/LoginSignup";
+const Privatepolicy = lazy(() => import("./Component/Company/PrivatePolicy"));
 
-import ManagedCollaborationTech from "./Component/Services/Managed Services/ManagedCollaborationTech";
-import ManagedCyberSecurity from "./Component/Services/Managed Services/ManagedCyberSecurity";
-import ManagedNetworking from "./Component/Services/Managed Services/ManagedNetworking";
-import ManagedOpsisStream from "./Component/Services/Managed Services/ManagedOpsis";
-import ManagedHelpDesk from "./Component/Services/Managed Services/ManageHelpDesk";
-import ManagedCloud from "./Component/Services/Managed Services/ManagedCloud";
+const SmartTransit = lazy(() => import("./Component/Solutions/SmartTransit"));
+const AmazonEVS = lazy(() => import("./Component/Solutions/Cloud Solutions/AmazonEVS"));
+const CloudSolution = lazy(() => import("./Component/Solutions/Cloud/CloudSolution"));
+const IotHealthCare = lazy(() => import("./Component/Solutions/Cloud Solutions/IotHealthCare"));
 
-import TitanX from "./Component/Solutions/Cloud Solutions/TitanX";
-import OmniBot from "./Component/Solutions/Cloud Solutions/OmniBot";
-import HybridCloud from "./Component/Solutions/Cloud/HybridCloud";
-import AIMLonAWS from "./Component/Solutions/Cloud Solutions/AIMLonAWS";
-import AWSMigrationService from "./Component/Solutions/Cloud Solutions/AWSMigrationService";
+const Locations = lazy(() => import("./Component/Company/Locations"));
+const ITServicesPage = lazy(() => import("./Component/pages/ITServicesPage"));
+const CaliforniaITService = lazy(() => import("./Component/pages/template/CaliforniaITService"));
+const FloridaITServices = lazy(() => import("./Component/pages/template/FloridaITServices"));
+const IllinoisITServices = lazy(() => import("./Component/pages/template/IllinoisITServices"));
+const TexasITServices = lazy(() => import("./Component/pages/template/TexasITServices"));
+const NewYorkITServices = lazy(() => import("./Component/pages/template/NewYorkITServices"));
 
-import StaffAugmentation from "./Component/Services/Professional Service/StaffAugmentation";
-import ConsultingAndAdvisory from "./Component/Services/Professional Service/ConsultingAndAdvisory";
-import Implementation from "./Component/Services/Professional Service/Implementation";
-import CloudMigration from "./Component/Services/Professional Service/CloudMigration";
-import ScrollToTop from "./Component/ScrollToTop";
-import SiteSurveys from "./Component/Services/Professional Service/SiteSurveys";
-import DataCenterMigration from "./Component/Services/Professional Service/DataCenterMigration";
-import TechStaffAug from "./Component/Services/Professional Service/TechStaffAug";
-import CloudSolutions from "./Component/Solutions/CloudSolutions";
+const CandidateForm = lazy(() => import("./Component/Company/Careers-Pages/CandidateForm"));
+const JobDetails = lazy(() => import("./Component/Company/Careers-Pages/JobDetails/JobDetails"));
 
-import Privatepolicy from "./Component/Company/PrivatePolicy";
-import CaseStudies10 from "./Component/Insights/CaseStdies/CaseStudies10";
-import AviationCloud from "./Component/Solutions/Cloud Solutions/AviationCloud";
-import SmartTransit from "./Component/Solutions/SmartTransit";
-import AmazonEVS from "./Component/Solutions/Cloud Solutions/AmazonEVS";
-import CloudSolution from "./Component/Solutions/Cloud/CloudSolution";
-import IotHealthCare from "./Component/Solutions/Cloud Solutions/IotHealthCare";
-import ContactSlider from "./Component/Contact/ContactSlider";
-import GoToTopButton from "./Component/Contact/GoToTopButton";
-import ExternalRedirect from "./Component/Redirect/ExternalRedirect";
-import Locations from "./Component/Company/Locations";
-import ITServicesPage from "./Component/pages/ITServicesPage";
-import CaliforniaITService from "./Component/pages/template/CaliforniaITService";
-import FloridaITServices from "./Component/pages/template/FloridaITServices";
-import IllinoisITServices from "./Component/pages/template/IllinoisITServices";
-import TexasITServices from "./Component/pages/template/TexasITServices";
-import NewYorkITServices from "./Component/pages/template/NewYorkITServices";
-import CandidateForm from "./Component/Company/Careers-Pages/CandidateForm";
-import JobDetails from "./Component/Company/Careers-Pages/JobDetails/JobDetails";
-import GCCservices from "./Component/Services/GCC Services/GCCservices";
-import GlobalxpertsServices from "./Component/pages/GlobalxpertsServices";
-import Canonical from "./Component/Redirect/Canonical"
+const GCCservices = lazy(() => import("./Component/Services/GCC Services/GCCservices"));
+const GlobalxpertsServices = lazy(() => import("./Component/pages/GlobalxpertsServices"));
+const CaptiveGcc = lazy(() => import("./Component/Services/GCC Services/pages/models/captiveGCC"));
 
-import CaptiveGcc from "./Component/Services/GCC Services/pages/models/captiveGCC";
+import { Suspense } from "react";
+const  GoToTopButton= lazy(()=> import("./Component/Contact/GoToTopButton"));
+const ContactSlider = lazy(() => import( "./Component/Contact/ContactSlider"));
+const ExternalRedirect = lazy(()=> import ("./Component/Redirect/ExternalRedirect"))
+const ScrollToTop = lazy(()=> import ("./Component/ScrollToTop"))
 
+const BotGcc = lazy(()=> import("./Component/Services/GCC Services/pages/models/BotGcc"))
+const HybridGcc = lazy(()=> import("./Component/Services/GCC Services/pages/models/HybridGCC"))
+const ManagedGcc = lazy(()=>import("./Component/Services/GCC Services/pages/models/managedServiceGCC"))
 function App() {
 
   
 
   return (
-    <>
-      <Canonical />
+    <Suspense fallback={<div>Loading...</div>}>
+      {/* <Canonical /> */}
       <ContactSlider />
       <ScrollToTop />
 
@@ -436,6 +429,9 @@ function App() {
           {/* GCC  Services */}
           <Route path="/service/gcc-services" element={<GCCservices />} />
           <Route path="/service/gcc-services/captive-gcc" element={<CaptiveGcc/>} />
+          <Route path="/service/gcc-services/bot-model" element={<BotGcc/>} />
+          <Route path="/service/gcc-services/hybrid-gcc" element={<HybridGcc/>} />
+          <Route path="/service/gcc-services/managed-services" element={<ManagedGcc/>} />
 
 
           {/* Solutions -> Cloud Solutions */}
@@ -467,7 +463,7 @@ function App() {
         </Routes>
         <GoToTopButton />
       </div>
-    </>
+    </Suspense>
   );
 }
 

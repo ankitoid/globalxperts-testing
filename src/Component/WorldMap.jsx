@@ -1,5 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
-import Globe from "react-globe.gl";
+import { useEffect, useRef, useState } from "react";
 
 const offices = [
   { name: "Noida", country: "India", coordinates: [77.391, 28.5355] },
@@ -17,7 +16,6 @@ const officePoints = offices.map(o => ({
   lng: o.coordinates[0],
 }));
 
-/* 🌎 Region labels — hand placed */
 const regionLabels = [
   { name: "India", lat: 22, lng: 78 },
   { name: "North America", lat: 40, lng: -100 },
@@ -28,6 +26,16 @@ const regionLabels = [
 export default function RegionGlobe() {
   const globeRef = useRef();
   const [hovered, setHovered] = useState(null);
+  const [GlobeComponent, setGlobeComponent] = useState(null);
+
+  // ✅ Load Globe ONLY on client
+  useEffect(() => {
+    if (typeof window === "undefined") return;
+
+    import("react-globe.gl").then((mod) => {
+      setGlobeComponent(() => mod.default);
+    });
+  }, []);
 
   useEffect(() => {
     if (!globeRef.current) return;
@@ -39,27 +47,24 @@ export default function RegionGlobe() {
     controls.maxDistance = 500;
 
     globeRef.current.pointOfView({ lat: 20, lng: 60, altitude: 2.2 }, 0);
-  }, []);
+  }, [GlobeComponent]);
+
+  // 🛑 During SSR → render nothing
+  if (!GlobeComponent) {
+    return <div className="w-full h-[640px]" />;
+  }
 
   return (
-    <div className="w-full h-[640px]">
-      <Globe
+    <div className="w-full h-[640px] relative">
+      <GlobeComponent
         ref={globeRef}
         width={580}
         height={660}
-
-        /* 🌍 Earth */
         globeImageUrl="//unpkg.com/three-globe/example/img/earth-blue-marble.jpg"
         bumpImageUrl="//unpkg.com/three-globe/example/img/earth-topology.png"
-
-        /* keep your gradient page bg visible */
         backgroundColor="rgba(0,0,0,0)"
-
-        /* subtle glow */
         atmosphereColor="#60a5fa"
         atmosphereAltitude={0.15}
-
-        /* 📍 Office markers */
         pointsData={officePoints}
         pointLat="lat"
         pointLng="lng"
@@ -73,8 +78,6 @@ export default function RegionGlobe() {
             900
           )
         }
-
-        /* 🔵 Pulse rings */
         ringsData={officePoints}
         ringLat="lat"
         ringLng="lng"
@@ -82,8 +85,6 @@ export default function RegionGlobe() {
         ringMaxRadius={3}
         ringPropagationSpeed={1}
         ringRepeatPeriod={1500}
-
-        /* 🏷 REGION LABELS (white) */
         labelsData={regionLabels}
         labelLat="lat"
         labelLng="lng"
@@ -94,9 +95,8 @@ export default function RegionGlobe() {
         labelResolution={2}
       />
 
-      {/* Hover card */}
       {hovered && (
-        <div className="absolute items-center justify-center  bg-white/95 px-4 py-2 shadow-lg border text-sm">
+        <div className="absolute bg-white/95 px-4 py-2 shadow-lg border text-sm">
           <div className="font-semibold">{hovered.name}</div>
           <div className="text-gray-600">{hovered.country}</div>
         </div>

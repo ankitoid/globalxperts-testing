@@ -1,4 +1,4 @@
-import React from "react";
+import { useEffect, useState } from "react";
 import { Helmet } from "react-helmet";
 import {
   FaMapMarkerAlt,
@@ -6,7 +6,7 @@ import {
 } from "react-icons/fa";
 import Navbar from "../Navbar";
 import Footer from "../Footer";
-import WorldMap from "../WorldMap";
+// import WorldMap from "../WorldMap";
 import utcmap from "../../Assets/utc.png"
 const Locations = () => {
   const offices = [
@@ -145,6 +145,13 @@ const Locations = () => {
     },
   ];
 
+const [WorldMapComponent, setWorldMapComponent] = useState(null);
+
+useEffect(() => {
+  import("../WorldMap").then((mod) => {
+    setWorldMapComponent(() => mod.default);
+  });
+}, []);
 
   return (
     <>
@@ -177,7 +184,8 @@ const Locations = () => {
       <section className="bg-gradient-to-br from-blue-50 to-slate-100">
         <div className="max-w-[1200px] mx-auto px-6 md:px-8 grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 w-full">
-            <WorldMap />
+          {WorldMapComponent && <WorldMapComponent />}
+
           </div>
 
           <div className="lg:col-span-6 text-gray-900 space-y-6">

@@ -8,7 +8,6 @@ import FAQWithImpactFilm from "./FAQSection";
 import Footer from "./Footer";
 import CompaniesLogos from "./CompaniesLogos";
 import ContactUs from "./ContactUs";
-import ContactTab from "./Contact/ContactSlider";
 import { Link } from "react-router-dom";
 import Partners from "./Partners";
 import Trial from "./Trial";

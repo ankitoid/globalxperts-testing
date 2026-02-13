@@ -1,0 +1,1 @@
+import{useEffect as n}from"react";const t=()=>/Mobi|Android|iPhone|iPad|iPod/i.test(navigator.userAgent),i=({url:o})=>(n(()=>{if(t())window.location.href=o;else{const e=document.createElement("a");e.href=o,e.target="_blank",e.rel="noopener noreferrer",document.body.appendChild(e),e.click(),document.body.removeChild(e),window.location.href="/"}},[o]),null);export{i as default};
